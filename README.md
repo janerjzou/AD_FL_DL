@@ -4,14 +4,19 @@
 
 ### Federated Deep Auto-encoder Model
 Deep Auto-encoder + Federated Learning
+
+Local Model Architecture
 ![Local Deep Autoencoder](https://user-images.githubusercontent.com/80377806/124221430-2087e200-db43-11eb-9ec3-e9eede7ee880.png)
+
+Federated Model Architecture
 ![FL-AE model](https://user-images.githubusercontent.com/80377806/124221443-24b3ff80-db43-11eb-80c3-ea09658e5f0f.png)
 
 
 ------------------------------------
 
 ### All Datasets
-stored in Google Drive (89 CSV files)
+Stored in Google Drive (89 CSV files)
+
 https://drive.google.com/drive/u/0/folders/11XVWLr1oMEcY_4IlJ7UHoXb4C2cnGr3G
 
 
@@ -22,6 +27,17 @@ https://drive.google.com/drive/u/0/folders/11XVWLr1oMEcY_4IlJ7UHoXb4C2cnGr3G
 <img width="776" alt="Data attack distribution - pie" src="https://user-images.githubusercontent.com/80377806/124221381-0948f480-db43-11eb-994b-e22d82f0e6d1.png">
 
 
+
+
+------------------------------------
+
+### Anomaly Detection Steps:
+* convert 89 csv files to 9 csv files based on devices
+* load 9 csv files and library packages required
+* for each device, split benign and anomalous data
+* train model by using benign data only
+* calculate threshold to detect benign or anomalous
+* get detection results (1 - anomalous / 0 - benign)
 
 
 
