@@ -52,13 +52,19 @@ https://drive.google.com/drive/u/0/folders/11XVWLr1oMEcY_4IlJ7UHoXb4C2cnGr3G
 * pandas
 * numpy
 * matplotlib
-* scipy
 * sklearn
-* os
 * tqdm
 * time
 
 
+
+------------------------------------
+
+### Main Modules
+* Data pre-processing
+* Retraining mechanism
+* FedAvg / FedAvgM
+* Random select partial devices for train
 
 
 
