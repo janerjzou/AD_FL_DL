@@ -34,12 +34,12 @@ https://drive.google.com/drive/u/0/folders/11XVWLr1oMEcY_4IlJ7UHoXb4C2cnGr3G
 ------------------------------------
 
 ### Anomaly Detection Steps:
-* convert 89 csv files to 9 csv files based on devices
-* load 9 csv files and library packages required
-* for each device, split benign and anomalous data
-* train model by using benign data only
-* calculate threshold to detect benign or anomalous
-* get detection results (1 - anomalous / 0 - benign)
+1. convert 89 csv files to 9 csv files based on devices
+2. load 9 csv files and library packages required
+3. for each device, split benign and anomalous data
+4. train model by using benign data only
+5. calculate threshold to detect benign or anomalous
+6. get detection results (1 - anomalous / 0 - benign)
 
 
 
