@@ -56,3 +56,16 @@ downloaded = drive.CreateFile({'id':id})
 downloaded.GetContentFile('Device #9.csv')   # Device #9
 
 <!--  add dataset links for other types of devices here..... -->
+
+
+
+
+d1 = pd.read_csv('/content/Device #1.csv')
+d2 = pd.read_csv('/content/Device #2.csv')
+d3 = pd.read_csv('/content/Device #3.csv')
+d4 = pd.read_csv('/content/Device #4.csv')
+d5 = pd.read_csv('/content/Device #5.csv')
+d6 = pd.read_csv('/content/Device #6.csv')
+d7 = pd.read_csv('/content/Device #7.csv')
+d8 = pd.read_csv('/content/Device #8.csv')
+d9 = pd.read_csv('/content/Device #9.csv')
