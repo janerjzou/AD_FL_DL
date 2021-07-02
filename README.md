@@ -1,6 +1,6 @@
 # CapstoneProject_Anomaly_Detection_with_FL
 
-## from March 2021 to June 2021 - USYD 2021 Semester 1
+## from March 2021 to June 2021  (USYD 2021 Semester 1)
 
 
 
