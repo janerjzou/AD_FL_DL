@@ -44,6 +44,19 @@ https://drive.google.com/drive/u/0/folders/11XVWLr1oMEcY_4IlJ7UHoXb4C2cnGr3G
 
 
 
+------------------------------------
+
+### Environment & Required Libraries/Packages
+* Google Colab
+* Pytorch
+* pandas
+* numpy
+* matplotlib
+* scipy
+* sklearn
+* os
+* tqdm
+* time
 
 
 
