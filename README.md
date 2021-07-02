@@ -2,10 +2,36 @@
 
 ## from March 2021 to June 2021
 
-## Federated Deep Auto-encoder
+### Federated Deep Auto-encoder Model
+Deep Auto-encoder + Federated Learning
+![Local Deep Autoencoder](https://user-images.githubusercontent.com/80377806/124221430-2087e200-db43-11eb-9ec3-e9eede7ee880.png)
+![FL-AE model](https://user-images.githubusercontent.com/80377806/124221443-24b3ff80-db43-11eb-80c3-ea09658e5f0f.png)
+
+
+------------------------------------
+
+### All Datasets
+stored in Google Drive (89 CSV files)
+https://drive.google.com/drive/u/0/folders/11XVWLr1oMEcY_4IlJ7UHoXb4C2cnGr3G
+
+
+![number of data](https://user-images.githubusercontent.com/80377806/124221052-48c31100-db42-11eb-833f-203bd26471fc.png)
+
+
+<img width="1235" alt="Data Distribution" src="https://user-images.githubusercontent.com/80377806/124221322-e9b1cc00-db42-11eb-9170-4e7af4d93298.png">
+<img width="776" alt="Data attack distribution - pie" src="https://user-images.githubusercontent.com/80377806/124221381-0948f480-db43-11eb-994b-e22d82f0e6d1.png">
 
 
 
+
+
+
+
+
+
+
+
+------------------------------------
 
 ### To load datasets
 !pip install -U -q PyDrive
