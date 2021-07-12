@@ -78,7 +78,7 @@ from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
 from google.colab import auth
 from oauth2client.client import GoogleCredentials
-<!--  Authenticate and create the PyDrive client. -->
+# Authenticate and create the PyDrive client.
 auth.authenticate_user()
 gauth = GoogleAuth()
 gauth.credentials = GoogleCredentials.get_application_default()
@@ -120,7 +120,7 @@ id = '152_3vZEkrTRrmSs0BpMNt6CQsSnHgO82'
 downloaded = drive.CreateFile({'id':id}) 
 downloaded.GetContentFile('Device #9.csv')   # Device #9
 
-<!--  add dataset links for other types of devices here..... -->
+# add dataset links for other types of devices here....
   ```
 
 
