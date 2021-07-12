@@ -72,6 +72,7 @@ https://drive.google.com/drive/u/0/folders/11XVWLr1oMEcY_4IlJ7UHoXb4C2cnGr3G
 ------------------------------------
 
 ### To load datasets
+  ```python
 !pip install -U -q PyDrive
 from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
@@ -120,10 +121,10 @@ downloaded = drive.CreateFile({'id':id})
 downloaded.GetContentFile('Device #9.csv')   # Device #9
 
 <!--  add dataset links for other types of devices here..... -->
+  ```
 
 
-
-
+  ```python
 d1 = pd.read_csv('/content/Device #1.csv')
 d2 = pd.read_csv('/content/Device #2.csv')
 d3 = pd.read_csv('/content/Device #3.csv')
@@ -133,3 +134,4 @@ d6 = pd.read_csv('/content/Device #6.csv')
 d7 = pd.read_csv('/content/Device #7.csv')
 d8 = pd.read_csv('/content/Device #8.csv')
 d9 = pd.read_csv('/content/Device #9.csv')
+  ```
