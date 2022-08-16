@@ -17,9 +17,10 @@ Federated Model Architecture
 ------------------------------------
 
 ### All Datasets
-Stored in Google Drive (89 CSV files)
 
-https://drive.google.com/drive/u/0/folders/11XVWLr1oMEcY_4IlJ7UHoXb4C2cnGr3G
+Original files can be downloaded from https://archive.ics.uci.edu/ml/datasets/detection_of_IoT_botnet_attacks_N_BaIoT or https://www.kaggle.com/datasets/mkashifn/nbaiot-dataset/download?datasetVersionNumber=1
+
+Initial modified files store in https://drive.google.com/drive/folders/1hnKIBIIwI3564738E1NMosjVH7fT6BY1?usp=sharing
 
 
 ![number of data](https://user-images.githubusercontent.com/80377806/124221052-48c31100-db42-11eb-833f-203bd26471fc.png)
